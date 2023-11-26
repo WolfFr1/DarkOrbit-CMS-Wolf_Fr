@@ -1,0 +1,188 @@
+body {
+  background-image: url('./images/background.jpg');
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+  object-fit: cover;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+ol, ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a, a:active {
+  text-decoration: none;
+  color: #000;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.dropdown-content {
+  top: 100% !important;
+}
+
+#main {
+  min-height: 100vh;
+}
+
+.index {
+  height: 100vh;
+  background-image: url('./images/backgroundlogin.jpg');
+  background-position: center;
+}
+.index .home-title{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.299);
+}
+
+#login, #register {
+  padding: 15px;
+}
+.btn-login{
+  background-color: rgb(0, 220, 26) ;
+}
+
+.form {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.nav-wrapper {
+  text-transform: uppercase;
+}
+
+table.striped>tbody>tr:nth-child(odd) {
+  background-color: rgba(121, 121, 121, 0.5) !important;
+}
+
+.tabs .tab a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  color: #fff;
+}
+
+.container-center {
+  padding: 0;
+  display: table;
+  height: 100%;
+}
+
+.helper-text {
+  font-size: 14px !important;
+}
+
+#toast-container {
+  top: auto !important;
+  right: auto !important;
+  bottom: 3%;
+  left: 1.5%;
+}
+
+.inline-right {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.padding-15 {
+  padding: 15px !important;
+}
+
+.padding-5 {
+  padding: 5px !important;
+}
+
+table tbody tr td a {
+  color: #fff !important;
+}
+
+input[type=text]:not(.browser-default).invalid ~ .helper-text[data-error] {
+  color: transparent !important;
+}
+
+#data {
+  padding: 10px 25px;
+}
+
+.card .card-image img {
+  padding-top: 15px;
+  width: unset;
+  display: unset;
+}
+
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    left: unset !important;
+    -webkit-transform: unset !important;
+    transform: unset !important;
+  }
+  .hide-on-med-and-down {
+    display: unset !important;
+  }
+}
+
+.toast .toast-action {
+  margin-left: 15px;
+  margin-right: -15px;
+}
+
+.select-wrapper input {
+  color: #fff;
+}
+
+.btn.disabled, .disabled.btn-large, .disabled.btn-small, .btn-floating.disabled, .btn-large.disabled, .btn-small.disabled, .btn-flat.disabled, .btn:disabled, .btn-large:disabled, .btn-small:disabled, .btn-floating:disabled, .btn-large:disabled, .btn-small:disabled, .btn-flat:disabled, .btn[disabled], .btn-large[disabled], .btn-small[disabled], .btn-floating[disabled], .btn-large[disabled], .btn-small[disabled], .btn-flat[disabled] {
+  background-color: #424242 !important;
+}
